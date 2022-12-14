@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="styleSheet" href="JavaScriptPractiseStlyes.css" />
+    <script src="LessonFirstJavaScript.js"></script>
+</head>
+<body>
+    <div class="title">Colour Grid A1: Manual Grid</div>
+    <div class="colourGridContainer">
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">1</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">2</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">3</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">4</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">5</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">6</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">7</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">8</div>
+        <div class="itemClassDefault" onmouseover="ChangeColor(this)" onmouseout="RevertColor(this)">9</div>
+    </div>
+
+    <br />
+    <br />
+    <div class="title">Colour Grid A2: Scripted Generated Grid</div>
+    <button onclick='grid(document.getElementById("grid1"))'>Press me1</button>
+    <div id="grid1"></div>
+    <br />
+    <div class="title">Colour Grid A3</div>
+    <button onclick='grid2(document.getElementById("grid2"))'>Press me2</button>
+    <div id="grid2"></div>
+    <br />
+    <div class="title">Colour Grid A4</div>
+    <button onclick='grid3(document.getElementById("grid3"))'>Press me3</button>
+    <div id="grid3"></div>
+
+</body>
+</html>

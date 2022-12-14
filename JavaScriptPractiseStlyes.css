@@ -1,0 +1,94 @@
+.title{
+    font-size: 20px
+}
+
+.colourGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.colourSubGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+
+.itemClassDefault {
+    transition-duration: 1s;
+    background-color: black;
+    color: black;
+
+}
+
+.itemClassActive {
+    background-color: white;
+    color: white;
+}
+
+
+.div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    transition-duration: 1s;
+    display: inline-block;
+    width: 6.25%;
+    height: 5em;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,1);
+    margin-bottom: -4px;
+    padding: 0px;
+}
+
+.activeBox {
+    display: inline-block;
+    width: 6.25%;
+    height: 5em;
+    box-sizing: border-box;
+    /*background-color: rgba(255,255,255,1);*/
+    margin-bottom: -4px;
+    padding: 0px;
+}
+
+.box1 {
+    transition-duration: 1s;
+    display: inline-block;
+    width: 10pt;
+    height: 10pt;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,1);
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.row1 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -4.5px;
+}
+.activeBox1 {
+    display: inline-block;
+    width: 10pt;
+    height: 10pt;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    padding: 0px;
+}
